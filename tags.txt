@@ -1,0 +1,16 @@
+Kinds:
+    *- "function" - name | path | pattern | signature
+    ?- "section" - name | path | pattern | scope | scopeKind (chapter)
+    ?- "key" - name | path | pattern | scope | scopeKind (section)
+    *- "class" - name | path | pattern
+    *- "variable" - name | path | pattern
+    ?- "heading1", "heading2", "heading3" - name | path | pattern 
+    ?- "boolean" - name | path | pattern 
+    ?- "chapter" - name | path | pattern
+    *- "member" - name | path | patern | signature | scope | scopeKind (class)
+    ?- "alias" - name | path | pattern
+
+
+    * - implemented
+    ? - not implemented (or not sure what it is)
+    
